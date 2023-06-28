@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080;
 
 const requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('Cześć Mateusz jest super SUPER!');
+  res.end('Hi Mateusz jest super SUPER!');
 }
 
 const server = http.createServer(requestListener);
